@@ -1849,7 +1849,7 @@ elif with_amd_vk and with_aco_tests
 elif with_swrast_vk
   error('lavapipe requires LLVM and is enabled, but LLVM is disabled.')
 elif with_gallium_llvmpipe
-  error('llvmpipe requires LLVM and is enabled, but LLVM is disabled.')
+  warning('llvmpipe requires LLVM and is enabled, but LLVM is disabled.')
 elif with_gallium_clover
   error('The OpenCL "Clover" state tracker requires LLVM, but LLVM is disabled.')
 elif with_clc
